@@ -1,0 +1,29 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    width: 500px;
+    border-radius: 6px;
+  
+    background-color: #FAFEFD;
+  }
+  
+  .container form button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #D8232D;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #ffffff;
+  }
+  
+  .container form input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff2f2;
+  }
