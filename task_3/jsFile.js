@@ -23,12 +23,12 @@ function randomquote(){
 }
 
 function myFunction() {
-    var copyText = document.getElementById('output').value;
+    var copyText = document.getElementById('output');
     copyText.select();
     copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText);
+    navigator.clipboard.writeText(copyText.value);
     var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copied: " + copyText;
+    tooltip.innerHTML = "Copied: " + copyText.value;
 }
   
 function outFunc() {

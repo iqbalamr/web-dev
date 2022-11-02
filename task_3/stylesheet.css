@@ -29,7 +29,9 @@ h1 {
     border-radius: 3px;
     padding : 15px 0;
     margin: 8px 0;
+    text-indent: 5px;
     box-sizing: border-box;
+    font-size: medium;
 }
 
 .container form input[type=button]{
@@ -59,13 +61,15 @@ h1 {
 }
 
 .container .tooltip .tooltiptext {
+  font-weight: 100;
+  font-size: medium;
   visibility: hidden;
   width: 140px;
   background-color: #555;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 150%;
@@ -76,6 +80,8 @@ h1 {
 }
 
 .container .tooltip .tooltiptext::after {
+  font-weight: 100;
+  font-size: medium;
   content: "";
   position: absolute;
   top: 100%;
@@ -84,6 +90,7 @@ h1 {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+  display: inline-block;
 }
 
 .container .tooltip:hover .tooltiptext {
