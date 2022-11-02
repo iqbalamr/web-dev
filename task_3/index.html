@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css"
+  </head>
+  <body style="background: #FFFCF2">
+    <img src="cover.jfif" style="width:200px;height:200px;" align="left">
+    <div class="container">
+      <div>
+        <h1>Get Your Random Quote From Midnights Album</h1>
+        <script type="text/javascript" src="jsFile.js"></script>
+        <form name="rn">
+          <input type = "text" id="output" name="output"/>
+          </br>
+          </br>
+          <input type = "button" value="Random Quote" onclick="randomquote();"/>
+        </form>
+        </br>
+        <div class="tooltip">
+          <button onclick="myFunction();" onmouseout="outFunc();">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            Copy Quote
+            </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
